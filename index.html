@@ -1,1 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koleksi Video</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        h1 {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            width: 90%;
+            margin: 20px 0;
+        }
+        .video-item {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            padding: 10px;
+        }
+        .video-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+        }
+        iframe {
+            width: 100%;
+            height: 200px;
+            border: none;
+            border-radius: 5px;
+        }
+        .video-title {
+            margin: 10px 0 5px 0;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: center;
+        }
+        .video-actions {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .action-btn {
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: background 0.3s ease;
+        }
+        .share-wa {
+            background: #25d366;
+            color: white;
+        }
+        .share-wa:hover {
+            background: #128c7e;
+        }
+        .copy-link {
+            background: #007bff;
+            color: white;
+        }
+        .copy-link:hover {
+            background: #0056b3;
+        }
+        .wa-button {
+            margin: 30px 0;
+            padding: 15px 30px;
+            background: #25d366;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2em;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            transition: background 0.3s ease;
+        }
+        .wa-button:hover {
+            background: #128c7e;
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            .video-grid {
+                grid-template-columns: 1fr;
+            }
+            .video-actions {
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Koleksi Jackpot Terbaik BOLASINGA</h1>
+    <div class="video-grid">
+        <div class="video-item">
+            <iframe src="https://www.ppshare.net/Dj10jXFtdo" allowfullscreen></iframe>
+            <div class="video-title">JP SLOT 1</div>
+            <div class="video-actions">
+                <button class="action-btn share-wa" onclick="shareToWA('https://www.ppshare.net/Dj10jXFtdo', 'JP SLOT 1')">Bagikan ke WA</button>
+                <button class="action-btn copy-link" onclick="copyLink('https://www.ppshare.net/Dj10jXFtdo')">Salin Link</button>
+            </div>
+        </div>
+        <div class="video-item">
+            <iframe src="https://euioa.jxcsysekgu.net/2qEVvq2JRC" allowfullscreen></iframe>
+            <div class="video-title">'JP SLOT 2</div>
+            <div class="video-actions">
+                <button class="action-btn share-wa" onclick="shareToWA('https://euioa.jxcsysekgu.net/2qEVvq2JRC', ''JP SLOT 2')">Bagikan ke WA</button>
+                <button class="action-btn copy-link" onclick="copyLink('https://euioa.jxcsysekgu.net/2qEVvq2JRC')">Salin Link</button>
+            </div>
+        </div>
+        <div class="video-item">
+            <iframe src="https://fkivsk.hrqhregkxq.net/vrJDO01h7b" allowfullscreen></iframe>
+            <div class="video-title">JP SLOT 3</div>
+            <div class="video-actions">
+                <button class="action-btn share-wa" onclick="shareToWA('https://fkivsk.hrqhregkxq.net/vrJDO01h7b', 'JP SLOT 3')">Bagikan ke WA</button>
+                <button class="action-btn copy-link" onclick="copyLink('https://fkivsk.hrqhregkxq.net/vrJDO01h7b')">Salin Link</button>
+            </div>
+        </div>
+        <div class="video-item">
+            <iframe src="https://fkivsk.hrqhregkxq.net/X2pIgiUPGD" allowfullscreen></iframe>
+            <div class="video-title">JP SLOT 4</div>
+            <div class="video-actions">
+                <button class="action-btn share-wa" onclick="shareToWA('https://fkivsk.hrqhregkxq.net/X2pIgiUPGD', 'JP SLOT 4')">Bagikan ke WA</button>
+                <button class="action-btn copy-link" onclick="copyLink('https://fkivsk.hrqhregkxq.net/X2pIgiUPGD')">Salin Link</button>
+            </div>
+        </div>
+        <div class="video-item">
+            <iframe src="https://fkivsk.hrqhregkxq.net/tK540lwxGq" allowfullscreen></iframe>
+            <div class="video-title">JP SLOT 5</div>
+            <div class="video-actions">
+                <button class="action-btn share-wa" onclick="shareToWA('https://fkivsk.hrqhregkxq.net/tK540lwxGq', 'JP SLOT 5')">Bagikan ke WA</button>
+                <button class="action-btn copy-link" onclick="copyLink('https://fkivsk.hrqhregkxq.net/tK540lwxGq')">Salin Link</button>
+            </div>
+        </div>
+        <div class="video-item">
+            <iframe src="https://www.ppshare.net/fHaeW0JwMm" allowfullscreen></iframe>
+            <div class="video-title">JP SLOT 6</div>
+            <div class="video-actions">
+                <button class="action-btn share-wa" onclick="shareToWA('https://www.ppshare.net/fHaeW0JwMm', 'JP SLOT 6')">Bagikan ke WA</button>
+                <button class="action-btn copy-link" onclick="copyLink('https://www.ppshare.net/fHaeW0JwMm')">Salin Link</button>
+            </div>
+        </div>
+    </div>
+    <a href="https://wa.me/+6287831833459?text=Halo,%20saya%20ingin%20bertanya%20tentang%20koleksi%20video" class="wa-button">Hubungi via WhatsApp</a>
 
+    <script>
+        function shareToWA(link, title) {
+            const message = `Cek video ini: ${title} - ${link}`;
+            const waUrl = `https://wa.me/?text=${encodeURIComponent(message)}`;
+            window.open(waUrl, '_blank');
+        }
+
+        function copyLink(link) {
+            navigator.clipboard.writeText(link).then(() => {
+                alert('Link berhasil disalin!');
+            }).catch(err => {
+                alert('Gagal menyalin link: ' + err);
+            });
+        }
+    </script>
+</body>
+</html>
